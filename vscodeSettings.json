@@ -1,0 +1,18 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.colorTheme": "Monokai",
+  "editor.detectIndentation": false,
+  "editor.fontSize": 14,
+  "prettier.singleQuote": true,
+  "files.associations": {
+    "*.edge": "html"
+  }
+}

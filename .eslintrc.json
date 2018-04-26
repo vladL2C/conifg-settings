@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:vue/strongly-recommended"
+  ],
+  "rules": {
+    "strict": "off",
+    "class-methods-use-this": "off",
+    "no-undef": "off",
+    "no-alert": "off",
+    "linebreak-style": "off",
+    "no-new": "off",
+    "no-console": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": false,
+        "jsxBracketSameLine": true,
+        "parser": "flow"
+      }
+    ]
+  }
+}
