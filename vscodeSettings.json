@@ -1,18 +1,24 @@
 {
   "git.ignoreMissingGitWarning": true,
   "editor.tabSize": 2,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": true
   },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "editor.multiCursorModifier": "ctrlCmd",
-  "workbench.colorTheme": "Monokai",
-  "editor.detectIndentation": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "prettier.singleQuote": true,
   "files.associations": {
-    "*.edge": "html"
-  }
+    "*.edge": "edge",
+    ".cflintrc": "json"
+  },
+  "workbench.colorTheme": "One Monokai",
+  "files.useExperimentalFileWatcher": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "terminal.integrated.rendererType": "dom",
+  "emmet.includeLanguages": {}
 }
