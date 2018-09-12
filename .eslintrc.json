@@ -1,31 +1,49 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
-  },
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended",
-    "plugin:vue/strongly-recommended"
-  ],
-  "rules": {
-    "strict": "off",
-    "class-methods-use-this": "off",
-    "no-undef": "off",
-    "no-alert": "off",
-    "linebreak-style": "off",
-    "no-new": "off",
-    "no-console": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "trailingComma": "all",
-        "bracketSpacing": false,
-        "jsxBracketSameLine": true,
-        "parser": "flow"
-      }
-    ]
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+    },
+    "plugins": ["html"],
+    "parserOptions": {"parser":"babel-eslint"},
+    "extends": [
+      "airbnb",
+      "plugin:prettier/recommended",
+      "plugin:vue/strongly-recommended"
+    ],
+    "rules": {
+      "no-var": "off",
+      "import/no-named-as-default-member": "off",
+      "import/no-named-as-default": "off",	
+      "no-underscore-dangle": "off",
+      "func-names": "off",
+      "no-shadow": "off",
+      "no-plusplus": "off",
+      "no-param-reassign": "off",
+      "import/prefer-default-export": "off",
+      "no-unused-vars": "off",
+      "strict": "off",
+      "class-methods-use-this": "off",
+      "no-undef": "off",
+      "no-alert": "off",
+      "linebreak-style": "off",
+      "no-new": "off",
+      "no-console": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "trailingComma": "none",
+          "bracketSpacing": false,
+          "jsxBracketSameLine": true,
+          "parser": "flow"
+        }
+      ]
+    }
   }
-}
